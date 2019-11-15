@@ -29,7 +29,7 @@
 #   label: "Species",
 #   sub_category: nil
 # }
-{
+
 def naming_system
    label: "Kingdom",
     sub_category: {
@@ -45,6 +45,7 @@ def naming_system
               sub_category: {
                 label: "Species",
                 sub_category: nil } } } } } } }
+              end
   # Remember:
   #  Kingdom
   #  Phylum
